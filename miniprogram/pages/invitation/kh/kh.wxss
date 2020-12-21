@@ -1,0 +1,42 @@
+/* miniprogram/pages/invitation/kh.kh.wxss */
+page {
+  height: 100%;
+  background-color: black;
+}
+
+.container {
+  /* background-color: cornflowerblue; */
+  height: 100%;
+  width: 100%;
+}
+
+.input-container {
+  height: 100%;
+  width: 100%;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-1 {
+  background-image: url(../../images/kh-1.jpg);
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.center {
+  position: absolute;
+}
+
+.swiper {
+  /* background-color: lightcoral; */
+  height: 100%;
+  width: 100%;
+}
+
+.swiper-image {
+  height: 100%;
+  z-index: -1;
+}
