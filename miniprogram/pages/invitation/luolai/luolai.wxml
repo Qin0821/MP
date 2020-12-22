@@ -1,2 +1,14 @@
 <!--miniprogram/pages/invitation/luolai.wxml-->
-<text>miniprogram/pages/invitation/luolai.wxml</text>
+<!-- <view class="cntr"> -->
+  <image class="bg" src="../../../images/luolai/bg.jpg"></image>
+  <image class="scan" bindtap="doScan" src="../../../images/luolai/1.png"></image>
+  <view class="cntr-magic">
+    <image class="magic" src="../../../images/luolai/magic.png"></image>
+    <image class="name" src="{{isAllComplete?'../../../images/luolai/logo-light.png':'../../../images/luolai/logo-gray.png'}}"></image>
+    <image class="logo, logo-1" src="{{logoArray[0]?'../../../images/luolai/1-1.png':'../../../images/luolai/1.png'}}"></image>
+    <image class="logo, logo-2" src="{{logoArray[1]?'../../../images/luolai/2-1.png':'../../../images/luolai/2.png'}}"></image>
+    <image class="logo, logo-3" src="{{logoArray[2]?'../../../images/luolai/3-1.png':'../../../images/luolai/3.png'}}"></image>
+    <image class="logo, logo-4" src="{{logoArray[3]?'../../../images/luolai/4-1.png':'../../../images/luolai/4.png'}}"></image>
+    <image class="logo, logo-5" src="{{logoArray[4]?'../../../images/luolai/5-1.png':'../../../images/luolai/5.png'}}"></image>
+  </view>
+<!-- </view> -->

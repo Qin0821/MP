@@ -5,7 +5,46 @@ Page({
    * 页面的初始数据
    */
   data: {
+    logoArray: [false, false, false, false, false],
+    isAllComplete: false
+  },
 
+  doScan: function() {
+    wx.scanCode({
+      onlyFromCamera: true,
+      success: (res) => {
+        console.log(res)
+        var logoArr = this.data.logoArray
+        switch(res.result) {
+          case '1': 
+            console.log(1)
+            logoArr[0] = true
+            break;
+          case '2': 
+            console.log(2)
+            logoArr[1] = true
+            break;
+          case '3': 
+            console.log(3)
+            logoArr[2] = true
+            break;
+          case '4': 
+            console.log(4)
+            logoArr[3] = true
+            break;
+          case '5': 
+            console.log(5)
+            logoArr[4] = true
+            break;
+          default:
+            break;
+        }
+        this.setData({
+            logoArray: logoArr,
+            isAllComplete: logoArr.indexOf(false) == -1
+        })
+      }
+    })
   },
 
   /**
