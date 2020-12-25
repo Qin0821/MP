@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/invitation/luolai/luolai",
     "pages/index/index",
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
@@ -15,8 +16,7 @@
     "pages/im/room/room",
     "pages/imageIdentification/imageIdentification",
     "pages/imageIdentification/home",
-    "pages/invitation/kh/kh",
-    "pages/invitation/luolai/luolai"
+    "pages/invitation/kh/kh"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
