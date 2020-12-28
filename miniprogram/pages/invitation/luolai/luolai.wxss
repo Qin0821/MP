@@ -34,14 +34,14 @@ page {
   left: 0;
   right: 0;
   margin: auto;
-  width: 740rpx;
-  height: 740rpx;
+  width: 680rpx;
+  height: 680rpx;
 }
 
 .magic {
   position: absolute;
-  width: 740rpx;
-  height: 740rpx;
+  width: 680rpx;
+  height: 680rpx;
 }
 
 .rotate-animation {
@@ -55,8 +55,8 @@ page {
 
 .name {
   position: absolute;
-  width: 155rpx;
-  height: 72rpx;
+  width: 148rpx;
+  height: 70rpx;
   top: 0;
   bottom: 0;
   left: 0;
@@ -69,9 +69,9 @@ page {
 }
 
 .logo-1 {
-  top: 26rpx;
-  width: 210rpx;
-  height: 210rpx;
+  top: 35rpx;
+  width: 185rpx;
+  height: 185rpx;
   left: 0;
   right: 0;
   margin: auto;
@@ -79,28 +79,28 @@ page {
 
 .logo-2 {
   top: 210rpx;
-  right: 85rpx;
-  width: 170rpx;
-  height: 170rpx;
+  right: 80rpx;
+  width: 150rpx;
+  height: 150rpx;
 }
 
 .logo-3 {
-  top: 452rpx;
+  top: 420rpx;
   right: 158rpx;
-  width: 190rpx;
-  height: 190rpx
+  width: 172rpx;
+  height: 172rpx
 }
 
 .logo-4 {
-  top: 458rpx;
+  top: 420rpx;
   left: 155rpx;
-  width: 172rpx;
-  height: 172rpx;
+  width: 158rpx;
+  height: 158rpx;
 }
 
 .logo-5 {
   top: 210rpx;
   left: 80rpx;
-  width: 170rpx;
-  height: 170rpx;
+  width: 150rpx;
+  height: 150rpx;
 }

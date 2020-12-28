@@ -98,10 +98,19 @@ Page({
       success(res) {
         console.log(res)
         var logoArr = JSON.parse(res.data)
+        var isComplete = logoArr.indexOf(false) == -1
         that.setData({
           logoArray: logoArr,
-          isAllComplete: logoArr.indexOf(false) == -1
+          isAllComplete: isComplete,
+          lightName: isComplete
         })
+        if (isComplete) {
+          that.animate('.gift', [
+            { opacity: 0, scale3d: [0.5, 0.5, 0.5], ease: 'ease-out'},
+            { opacity: 1.0, scale3d: [1, 1, 1], ease: 'ease-out'},
+            ], 1000, function () {
+          }.bind(that))
+        }
       }
     })
   },
