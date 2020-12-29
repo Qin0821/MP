@@ -85,8 +85,8 @@ page {
 }
 
 .logo-3 {
-  top: 420rpx;
-  right: 158rpx;
+  top: 415rpx;
+  right: 150rpx;
   width: 172rpx;
   height: 172rpx
 }
