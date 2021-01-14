@@ -64,6 +64,11 @@
           "pathName": "pages/invitation/luolai/luolai",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/work/clock",
+          "pathName": "pages/work/clock",
+          "scene": null
         }
       ]
     }

@@ -1,0 +1,3 @@
+<!--miniprogram/pages/work/clock.wxml-->
+<button bindtap="doClock">打卡</button>
+<text>{{clockResponse}}</text>
